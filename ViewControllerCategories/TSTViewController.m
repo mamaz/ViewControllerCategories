@@ -27,8 +27,8 @@
     [self printString:@"Hello..."];
     
     self.table = [[UITableView alloc]init];
-    self.table.frame = self.view.frame;
-    self.table.delegate   = self; // delegate and datasource is written in categories
+    self.table.frame = CGRectOffset(self.view.frame, 0, 20);
+    self.table.delegate   = self; // delegate and datasource is placed in categories
     self.table.dataSource = self;
     [self.view addSubview:self.table];
 }
