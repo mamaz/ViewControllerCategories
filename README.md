@@ -58,7 +58,7 @@ instead of this:
 	@end
 
 
-separate the UITableView delegate methods to a category, so the view controller becomes thin:
+separate the UITableView delegate methods to a [category](https://github.com/mamaz/ViewControllerCategories/blob/master/ViewControllerCategories/TSTViewController%2BTSTViewCategories.m), so the view controller becomes thin:
 
 	@implementation TSTViewController
 	@synthesize helloString = _helloString;
