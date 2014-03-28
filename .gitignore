@@ -1,0 +1,26 @@
+.DS_Store
+*~.nib
+*.swp
+build/*
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+xcuserdata
+!default.xcworkspace
+profile
+*.moved-aside
+*#*
+Pods/
+test-reports
+screenshot_*.png
+=======
+.irb-history
+Podfile.lock

@@ -21,6 +21,7 @@
 		AD4AA80818E51E34004ABC83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4AA7EA18E51E33004ABC83 /* UIKit.framework */; };
 		AD4AA81018E51E34004ABC83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD4AA80E18E51E34004ABC83 /* InfoPlist.strings */; };
 		AD4AA81218E51E34004ABC83 /* ViewControllerCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4AA81118E51E34004ABC83 /* ViewControllerCategoriesTests.m */; };
+		AD4AA81D18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4AA81C18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AD4AA80D18E51E34004ABC83 /* ViewControllerCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerCategoriesTests-Info.plist"; sourceTree = "<group>"; };
 		AD4AA80F18E51E34004ABC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD4AA81118E51E34004ABC83 /* ViewControllerCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCategoriesTests.m; sourceTree = "<group>"; };
+		AD4AA81B18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSTViewController+TSTViewCategories.h"; sourceTree = "<group>"; };
+		AD4AA81C18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSTViewController+TSTViewCategories.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				AD4AA7F818E51E33004ABC83 /* Main.storyboard */,
 				AD4AA7FB18E51E33004ABC83 /* TSTViewController.h */,
 				AD4AA7FC18E51E33004ABC83 /* TSTViewController.m */,
+				AD4AA81B18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.h */,
+				AD4AA81C18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.m */,
 				AD4AA7FE18E51E33004ABC83 /* Images.xcassets */,
 				AD4AA7ED18E51E33004ABC83 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4AA7F718E51E33004ABC83 /* TSTAppDelegate.m in Sources */,
+				AD4AA81D18E51E7D004ABC83 /* TSTViewController+TSTViewCategories.m in Sources */,
 				AD4AA7FD18E51E33004ABC83 /* TSTViewController.m in Sources */,
 				AD4AA7F318E51E33004ABC83 /* main.m in Sources */,
 			);

@@ -10,4 +10,6 @@
 
 @interface TSTViewController : UIViewController
 
+@property(nonatomic,strong) NSString *helloString;
+
 @end
